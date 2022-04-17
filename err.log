@@ -1,0 +1,8 @@
+In file '.\docker-compose.yml', volume must be a mapping, not a string.
+>> Solution: ad ":" in volume
+The Compose file '.\docker-compose.yml' is invalid because:
+Unsupported config option for services.wordpress: 'volume' (did you mean 'volumes'?)
+>> Solution: change to volumes
+Creating network "projects-website-with-docker_wpsite" with the default driver
+Creating volume "projects-website-with-docker_db_data" with default driver
+Pulling db (mysql:5.7)...
